@@ -1,0 +1,7 @@
+#!/usr/bin/perl
+
+if (scalar(@ARGV) != 1) {
+    die "Use ./run PROCESS_NUMBER"."\n";
+}
+
+print(qx(mpirun -np $ARGV[0] ./project));

@@ -1,0 +1,8 @@
+0
+120
+225
+6
+5
+3
+1000
+./input_files_ca/glider_gun.txt

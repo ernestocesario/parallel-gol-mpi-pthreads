@@ -1,0 +1,3 @@
+#!/usr/bin/perl
+
+print (qx(mpic++ -std=c++11 -o project ./src/project.cpp ./src/WorkPool.h ./src/WorkPool.cpp -lalleg -lstdc++));
